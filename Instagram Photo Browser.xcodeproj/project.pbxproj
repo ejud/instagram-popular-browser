@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8109BF4183D976B0042B936 /* exampleImageObject.json in Resources */ = {isa = PBXBuildFile; fileRef = B8109BF2183D976B0042B936 /* exampleImageObject.json */; };
+		B8109BF5183D976B0042B936 /* exampleInstagramFeed.json in Resources */ = {isa = PBXBuildFile; fileRef = B8109BF3183D976B0042B936 /* exampleInstagramFeed.json */; };
+		B8109BF7183D98AB0042B936 /* exampleImageObject.json in Resources */ = {isa = PBXBuildFile; fileRef = B8109BF2183D976B0042B936 /* exampleImageObject.json */; };
+		B8109BF8183D98AB0042B936 /* exampleInstagramFeed.json in Resources */ = {isa = PBXBuildFile; fileRef = B8109BF3183D976B0042B936 /* exampleInstagramFeed.json */; };
+		B8109BFA183E97870042B936 /* InstagramPhotoBrowserSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8109BF9183E97870042B936 /* InstagramPhotoBrowserSettings.plist */; };
+		B8109BFD183E97C20042B936 /* IPBInstagramAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B8109BFC183E97C20042B936 /* IPBInstagramAPIClient.m */; };
 		B83CD3F8183AD33900B2807D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83CD3F7183AD33900B2807D /* UIKit.framework */; };
 		B83CD3FA183AD33900B2807D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83CD3F9183AD33900B2807D /* Foundation.framework */; };
 		B83CD3FC183AD33900B2807D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83CD3FB183AD33900B2807D /* CoreGraphics.framework */; };
@@ -16,9 +22,24 @@
 		B83CD40A183AD33900B2807D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B83CD409183AD33900B2807D /* Default.png */; };
 		B83CD40C183AD33900B2807D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B83CD40B183AD33900B2807D /* Default@2x.png */; };
 		B83CD40E183AD33900B2807D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B83CD40D183AD33900B2807D /* Default-568h@2x.png */; };
+		B83CD416183AD51400B2807D /* IPBPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CD415183AD51400B2807D /* IPBPhotoBrowserViewController.m */; };
+		B83CD41C183ADE3A00B2807D /* IPBImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CD41B183ADE3A00B2807D /* IPBImageObject.m */; };
+		B83CD427183ADF8A00B2807D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83CD426183ADF8A00B2807D /* SenTestingKit.framework */; };
+		B83CD428183ADF8A00B2807D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83CD3F7183AD33900B2807D /* UIKit.framework */; };
+		B83CD429183ADF8A00B2807D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83CD3F9183AD33900B2807D /* Foundation.framework */; };
+		B83CD42F183ADF8A00B2807D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B83CD42D183ADF8A00B2807D /* InfoPlist.strings */; };
+		B83CD43C183ADFD200B2807D /* IPBImageObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CD43B183ADFD200B2807D /* IPBImageObjectTests.m */; };
+		B83CD43D183AE87400B2807D /* IPBImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CD41B183ADE3A00B2807D /* IPBImageObject.m */; };
+		B83CD440183AEFDC00B2807D /* IPBPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B83CD43F183AEFDC00B2807D /* IPBPhotoCell.m */; };
+		B8C325BF183C0D7F00926CA5 /* IPBPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C325BE183C0D7F00926CA5 /* IPBPhotoDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8109BF2183D976B0042B936 /* exampleImageObject.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = exampleImageObject.json; path = "../Instagram Photo Browser/exampleImageObject.json"; sourceTree = "<group>"; };
+		B8109BF3183D976B0042B936 /* exampleInstagramFeed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = exampleInstagramFeed.json; path = "../Instagram Photo Browser/exampleInstagramFeed.json"; sourceTree = "<group>"; };
+		B8109BF9183E97870042B936 /* InstagramPhotoBrowserSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InstagramPhotoBrowserSettings.plist; sourceTree = "<group>"; };
+		B8109BFB183E97C20042B936 /* IPBInstagramAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPBInstagramAPIClient.h; sourceTree = "<group>"; };
+		B8109BFC183E97C20042B936 /* IPBInstagramAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPBInstagramAPIClient.m; sourceTree = "<group>"; };
 		B83CD3F4183AD33900B2807D /* Instagram Photo Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Photo Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83CD3F7183AD33900B2807D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B83CD3F9183AD33900B2807D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +53,21 @@
 		B83CD409183AD33900B2807D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B83CD40B183AD33900B2807D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B83CD40D183AD33900B2807D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B83CD414183AD51400B2807D /* IPBPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPBPhotoBrowserViewController.h; sourceTree = "<group>"; };
+		B83CD415183AD51400B2807D /* IPBPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPBPhotoBrowserViewController.m; sourceTree = "<group>"; };
+		B83CD41A183ADE3A00B2807D /* IPBImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPBImageObject.h; sourceTree = "<group>"; };
+		B83CD41B183ADE3A00B2807D /* IPBImageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPBImageObject.m; sourceTree = "<group>"; };
+		B83CD425183ADF8A00B2807D /* Instagram Photo Browser Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram Photo Browser Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83CD426183ADF8A00B2807D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B83CD42C183ADF8A00B2807D /* Instagram Photo Browser Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Instagram Photo Browser Tests-Info.plist"; sourceTree = "<group>"; };
+		B83CD42E183ADF8A00B2807D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B83CD433183ADF8A00B2807D /* Instagram Photo Browser Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagram Photo Browser Tests-Prefix.pch"; sourceTree = "<group>"; };
+		B83CD43A183ADFD200B2807D /* IPBImageObjectTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPBImageObjectTests.h; sourceTree = "<group>"; };
+		B83CD43B183ADFD200B2807D /* IPBImageObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPBImageObjectTests.m; sourceTree = "<group>"; };
+		B83CD43E183AEFDC00B2807D /* IPBPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPBPhotoCell.h; sourceTree = "<group>"; };
+		B83CD43F183AEFDC00B2807D /* IPBPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPBPhotoCell.m; sourceTree = "<group>"; };
+		B8C325BD183C0D7F00926CA5 /* IPBPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPBPhotoDetailViewController.h; sourceTree = "<group>"; };
+		B8C325BE183C0D7F00926CA5 /* IPBPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPBPhotoDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +81,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B83CD421183ADF8A00B2807D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83CD427183ADF8A00B2807D /* SenTestingKit.framework in Frameworks */,
+				B83CD428183ADF8A00B2807D /* UIKit.framework in Frameworks */,
+				B83CD429183ADF8A00B2807D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -52,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B83CD3FD183AD33900B2807D /* Instagram Photo Browser */,
+				B83CD42A183ADF8A00B2807D /* Instagram Photo Browser Tests */,
 				B83CD3F6183AD33900B2807D /* Frameworks */,
 				B83CD3F5183AD33900B2807D /* Products */,
 			);
@@ -61,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				B83CD3F4183AD33900B2807D /* Instagram Photo Browser.app */,
+				B83CD425183ADF8A00B2807D /* Instagram Photo Browser Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +119,7 @@
 				B83CD3F7183AD33900B2807D /* UIKit.framework */,
 				B83CD3F9183AD33900B2807D /* Foundation.framework */,
 				B83CD3FB183AD33900B2807D /* CoreGraphics.framework */,
+				B83CD426183ADF8A00B2807D /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,6 +130,16 @@
 				B83CD406183AD33900B2807D /* IPBAppDelegate.h */,
 				B83CD407183AD33900B2807D /* IPBAppDelegate.m */,
 				B83CD3FE183AD33900B2807D /* Supporting Files */,
+				B83CD414183AD51400B2807D /* IPBPhotoBrowserViewController.h */,
+				B83CD415183AD51400B2807D /* IPBPhotoBrowserViewController.m */,
+				B8C325BD183C0D7F00926CA5 /* IPBPhotoDetailViewController.h */,
+				B8C325BE183C0D7F00926CA5 /* IPBPhotoDetailViewController.m */,
+				B83CD41A183ADE3A00B2807D /* IPBImageObject.h */,
+				B83CD41B183ADE3A00B2807D /* IPBImageObject.m */,
+				B83CD43E183AEFDC00B2807D /* IPBPhotoCell.h */,
+				B83CD43F183AEFDC00B2807D /* IPBPhotoCell.m */,
+				B8109BFB183E97C20042B936 /* IPBInstagramAPIClient.h */,
+				B8109BFC183E97C20042B936 /* IPBInstagramAPIClient.m */,
 			);
 			path = "Instagram Photo Browser";
 			sourceTree = "<group>";
@@ -95,6 +154,29 @@
 				B83CD409183AD33900B2807D /* Default.png */,
 				B83CD40B183AD33900B2807D /* Default@2x.png */,
 				B83CD40D183AD33900B2807D /* Default-568h@2x.png */,
+				B8109BF9183E97870042B936 /* InstagramPhotoBrowserSettings.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B83CD42A183ADF8A00B2807D /* Instagram Photo Browser Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B8109BF2183D976B0042B936 /* exampleImageObject.json */,
+				B8109BF3183D976B0042B936 /* exampleInstagramFeed.json */,
+				B83CD43A183ADFD200B2807D /* IPBImageObjectTests.h */,
+				B83CD43B183ADFD200B2807D /* IPBImageObjectTests.m */,
+				B83CD42B183ADF8A00B2807D /* Supporting Files */,
+			);
+			path = "Instagram Photo Browser Tests";
+			sourceTree = "<group>";
+		};
+		B83CD42B183ADF8A00B2807D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B83CD42C183ADF8A00B2807D /* Instagram Photo Browser Tests-Info.plist */,
+				B83CD42D183ADF8A00B2807D /* InfoPlist.strings */,
+				B83CD433183ADF8A00B2807D /* Instagram Photo Browser Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +201,24 @@
 			productReference = B83CD3F4183AD33900B2807D /* Instagram Photo Browser.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B83CD424183ADF8A00B2807D /* Instagram Photo Browser Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83CD434183ADF8A00B2807D /* Build configuration list for PBXNativeTarget "Instagram Photo Browser Tests" */;
+			buildPhases = (
+				B83CD420183ADF8A00B2807D /* Sources */,
+				B83CD421183ADF8A00B2807D /* Frameworks */,
+				B83CD422183ADF8A00B2807D /* Resources */,
+				B83CD423183ADF8A00B2807D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Instagram Photo Browser Tests";
+			productName = "Instagram Photo Browser Tests";
+			productReference = B83CD425183ADF8A00B2807D /* Instagram Photo Browser Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -142,6 +242,7 @@
 			projectRoot = "";
 			targets = (
 				B83CD3F3183AD33900B2807D /* Instagram Photo Browser */,
+				B83CD424183ADF8A00B2807D /* Instagram Photo Browser Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -155,10 +256,39 @@
 				B83CD40A183AD33900B2807D /* Default.png in Resources */,
 				B83CD40C183AD33900B2807D /* Default@2x.png in Resources */,
 				B83CD40E183AD33900B2807D /* Default-568h@2x.png in Resources */,
+				B8109BF4183D976B0042B936 /* exampleImageObject.json in Resources */,
+				B8109BF5183D976B0042B936 /* exampleInstagramFeed.json in Resources */,
+				B8109BFA183E97870042B936 /* InstagramPhotoBrowserSettings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83CD422183ADF8A00B2807D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8109BF7183D98AB0042B936 /* exampleImageObject.json in Resources */,
+				B8109BF8183D98AB0042B936 /* exampleInstagramFeed.json in Resources */,
+				B83CD42F183ADF8A00B2807D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B83CD423183ADF8A00B2807D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B83CD3F0183AD33900B2807D /* Sources */ = {
@@ -167,6 +297,20 @@
 			files = (
 				B83CD404183AD33900B2807D /* main.m in Sources */,
 				B83CD408183AD33900B2807D /* IPBAppDelegate.m in Sources */,
+				B83CD416183AD51400B2807D /* IPBPhotoBrowserViewController.m in Sources */,
+				B83CD41C183ADE3A00B2807D /* IPBImageObject.m in Sources */,
+				B83CD440183AEFDC00B2807D /* IPBPhotoCell.m in Sources */,
+				B8C325BF183C0D7F00926CA5 /* IPBPhotoDetailViewController.m in Sources */,
+				B8109BFD183E97C20042B936 /* IPBInstagramAPIClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83CD420183ADF8A00B2807D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83CD43C183ADFD200B2807D /* IPBImageObjectTests.m in Sources */,
+				B83CD43D183AE87400B2807D /* IPBImageObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +321,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				B83CD401183AD33900B2807D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B83CD42D183ADF8A00B2807D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B83CD42E183ADF8A00B2807D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -260,6 +412,36 @@
 			};
 			name = Release;
 		};
+		B83CD435183ADF8A00B2807D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Instagram Photo Browser Tests/Instagram Photo Browser Tests-Prefix.pch";
+				INFOPLIST_FILE = "Instagram Photo Browser Tests/Instagram Photo Browser Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B83CD436183ADF8A00B2807D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Instagram Photo Browser Tests/Instagram Photo Browser Tests-Prefix.pch";
+				INFOPLIST_FILE = "Instagram Photo Browser Tests/Instagram Photo Browser Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -279,6 +461,16 @@
 				B83CD413183AD33900B2807D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83CD434183ADF8A00B2807D /* Build configuration list for PBXNativeTarget "Instagram Photo Browser Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B83CD435183ADF8A00B2807D /* Debug */,
+				B83CD436183ADF8A00B2807D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

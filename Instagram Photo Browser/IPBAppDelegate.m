@@ -7,6 +7,7 @@
 //
 
 #import "IPBAppDelegate.h"
+#import "IPBPhotoBrowserViewController.h"
 
 @implementation IPBAppDelegate
 
@@ -18,9 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    IPBPhotoBrowserViewController *viewController = [[[IPBPhotoBrowserViewController alloc] initWithNibName:nil bundle:nil] autorelease];
+    UINavigationController *navController = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
